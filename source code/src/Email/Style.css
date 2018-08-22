@@ -1,0 +1,79 @@
+.background {
+    -fx-background-image: url("bg.jpg");
+    -fx-background-size: cover;
+}
+
+.text-field {
+    -fx-font-family: "Lucida Sans";
+    -fx-background-color: rgba(0, 0, 0, 0.3 );
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: rgba(255, 228, 153, 0.4);
+    -fx-text-fill: #fff;
+    -fx-font-size: 18;
+
+}
+
+.error-field {
+    -fx-background-color: rgba(228, 0, 0, 0.8 );
+}
+.text-label {
+    -fx-font-size: 25;
+    -fx-font-family: "Lucida Sans";
+    -fx-text-fill: #ffe499;
+}
+
+.code-label {
+    -fx-font-size: 15;
+    -fx-text-fill: white;
+    -fx-font-family: "Lucida Sans";
+}
+
+.btn_result {
+    -fx-text-fill: #ffe499;
+    -fx-font-size: 20;
+    -fx-background-color: #004D76;
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-font-family: "Lucida Sans";
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.7), 3, 0, 0, 3);
+}
+
+.btn_result:hover {
+    -fx-cursor: hand;
+}
+
+.btn_result:pressed {
+    -fx-background-color: #00658A;
+    -fx-effect: innershadow( gaussian, rgba( 0, 0, 0, 0.5 ), 7, 0, 3, 3 );
+}
+
+
+
+.text-area .content {
+
+    -fx-background-color: #000;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: rgba(255, 228, 153, 0.4);
+
+}
+
+.error {
+-fx-text-fill: red;
+    -fx-font-size: 15;
+    -fx-font-family: Verdana;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 1, 0, 0, 1);
+
+}
+
+.show-result {
+    -fx-background-color: none;
+    -fx-border-color: none;
+    -fx-font-family: "Lucida Sans";
+    -fx-font-size: 26;
+    -fx-text-fill: #ffe499;
+}
+
+
+
